@@ -1,11 +1,35 @@
 ---
-title: "personal-website"
+title: "William McCormack"
+about:
+  template: jolla
+  image: my face.jpg
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/william-mccormack-ucla/
+    - icon: github
+      text: Github
+      href: https://github.com/will-mccormack
+    - text: Email
+      url: "mailto:willmccormack@g.ucla.edu"
 ---
 
-This is a Quarto website.
+William McCormack is a third-year Statistics & Data Science student at UCLA. When not innovating at hackathons, William enjoys skiing and playing classical chess. Download [my resume](/William_McCormack.pdf)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Education
 
-```{r}
-1 + 1
-```
+**University of California, Los Angeles** | Los Angeles, CA  
+**Degree:** B.S in Statistics & Data Science  
+**Minor:** Data Science Engineering  
+**Dates:** Sept 2022 - June 2026 (Anticipated)
+
+
+## Experience
+
+**Company:** Hacker Fund  
+**Position:** Data Research Intern  
+**Dates:** August 2024 - December 2024  
+
+**Company:** Olami  
+**Position:** Data Science Intern  
+**Dates:** January 2023 - December 2023  

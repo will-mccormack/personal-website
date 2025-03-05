@@ -4,10 +4,12 @@ project:
 website:
   title: "William McCormack"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: Projects.qmd
+        text: Projects
 
 format:
   html:
@@ -19,3 +21,5 @@ format:
 
 editor: visual
 
+execute:
+  freeze: auto

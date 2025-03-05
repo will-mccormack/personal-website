@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "personal-website",
+    "title": "William McComrack",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "William McCormack is a third-year Statistics & Data Science student at UCLA. When not innovating at hackathons, William enjoys skiing and playing classical chess. Download my resume"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,26 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "William McComrack",
+    "section": "Education",
+    "text": "Education\nUniversity of California, Los Angeles | Los Angeles, CA\nDegree: B.S in Statistics & Data Science\nMinor: Data Science Engineering\nDates: Sept 2022 - June 2026 (Anticipated)"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "William McComrack",
+    "section": "Experience",
+    "text": "Experience\nCompany: Hacker Fund\nPosition: Data Research Intern\nDates: August 2024 - December 2024\nCompany: Olami\nPosition: Data Science Intern\nDates: January 2023 - December 2023"
+  },
+  {
+    "objectID": "Projects.html#project-2",
+    "href": "Projects.html#project-2",
+    "title": "Projects",
+    "section": "Project 2",
+    "text": "Project 2"
   }
 ]
