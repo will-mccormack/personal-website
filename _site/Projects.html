@@ -94,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">About William McCormack</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./Projects.html" aria-current="page"> 
@@ -116,8 +116,27 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project-1" id="toc-project-1" class="nav-link active" data-scroll-target="#project-1">Project 1</a></li>
-  <li><a href="#project-2" id="toc-project-2" class="nav-link" data-scroll-target="#project-2">Project 2</a></li>
+  <li><a href="#project-1-the-role-of-sports-statistics-in-evaluating-college-quarterbacks" id="toc-project-1-the-role-of-sports-statistics-in-evaluating-college-quarterbacks" class="nav-link active" data-scroll-target="#project-1-the-role-of-sports-statistics-in-evaluating-college-quarterbacks">Project 1: The Role of Sports Statistics in Evaluating College Quarterbacks</a>
+  <ul class="collapse">
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#description" id="toc-description" class="nav-link" data-scroll-target="#description">Description</a></li>
+  <li><a href="#my-role" id="toc-my-role" class="nav-link" data-scroll-target="#my-role">My Role</a></li>
+  <li><a href="#technologies-used" id="toc-technologies-used" class="nav-link" data-scroll-target="#technologies-used">Technologies Used</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#files" id="toc-files" class="nav-link" data-scroll-target="#files">Files</a></li>
+  <li><a href="#project-insights" id="toc-project-insights" class="nav-link" data-scroll-target="#project-insights">Project Insights</a></li>
+  </ul></li>
+  <li><a href="#project-2-unsupervised-bias-detection-in-college-student-newspapers" id="toc-project-2-unsupervised-bias-detection-in-college-student-newspapers" class="nav-link" data-scroll-target="#project-2-unsupervised-bias-detection-in-college-student-newspapers">Project 2: Unsupervised Bias Detection in College Student Newspapers</a>
+  <ul class="collapse">
+  <li><a href="#summary-1" id="toc-summary-1" class="nav-link" data-scroll-target="#summary-1">Summary</a></li>
+  <li><a href="#description-1" id="toc-description-1" class="nav-link" data-scroll-target="#description-1">Description</a></li>
+  <li><a href="#my-role-1" id="toc-my-role-1" class="nav-link" data-scroll-target="#my-role-1">My Role</a></li>
+  <li><a href="#technologies-used-1" id="toc-technologies-used-1" class="nav-link" data-scroll-target="#technologies-used-1">Technologies Used</a></li>
+  <li><a href="#technologies-used-2" id="toc-technologies-used-2" class="nav-link" data-scroll-target="#technologies-used-2">Technologies Used</a></li>
+  <li><a href="#results-1" id="toc-results-1" class="nav-link" data-scroll-target="#results-1">Results</a></li>
+  <li><a href="#files-1" id="toc-files-1" class="nav-link" data-scroll-target="#files-1">Files</a></li>
+  <li><a href="#project-insights-1" id="toc-project-insights-1" class="nav-link" data-scroll-target="#project-insights-1">Project Insights</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -143,13 +162,111 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project-1" class="level2">
-<h2 class="anchored" data-anchor-id="project-1">Project 1</h2>
+<section id="project-1-the-role-of-sports-statistics-in-evaluating-college-quarterbacks" class="level2">
+<h2 class="anchored" data-anchor-id="project-1-the-role-of-sports-statistics-in-evaluating-college-quarterbacks">Project 1: The Role of Sports Statistics in Evaluating College Quarterbacks</h2>
+<section id="summary" class="level3">
+<h3 class="anchored" data-anchor-id="summary">Summary</h3>
+<p>This project investigates the feasibility of using common college football quarterback statistics to predict NFL draft outcomes. It focuses on determining whether these statistics can accurately predict whether a quarterback will be drafted and identifying the most significant features influencing draft decisions.</p>
 </section>
-<section id="project-2" class="level2">
-<h2 class="anchored" data-anchor-id="project-2">Project 2</h2>
+<section id="description" class="level3">
+<h3 class="anchored" data-anchor-id="description">Description</h3>
+<p>The project addresses two main research questions: whether common quarterback statistics can predict NFL draft outcomes, and if so, what features most significantly influence these outcomes. Key elements of the project include:</p>
+<ul>
+<li><p><strong>Data Sourcing and Transformation</strong>: Data was sourced from college football sports reference pages and normalized within players’ conferences to account for variances in competition levels. A focus was maintained on players who played significant minutes and had a substantial amount of pass attempts.</p></li>
+<li><p><strong>Model Development and Evaluation</strong>: Different statistical models, including Random Forest and Boosting models, were developed to predict the drafted status of quarterbacks. Techniques like weighting and undersampling were used to handle class imbalances in the data.</p></li>
+<li><p><strong>Feature Importance and SHAP Values</strong>: After model training, feature importances were analyzed using built-in tree model methods and SHAP values. These analyses helped identify which statistics are most predictive of a quarterback being drafted.</p></li>
+<li><p><strong>Draftability Index</strong>: Developed a “Draftability Index” which uses SHAP values to weight quarterback statistics, providing a simplified and powerful tool to assess a quarterback’s likelihood of being drafted.</p></li>
+</ul>
+</section>
+<section id="my-role" class="level3">
+<h3 class="anchored" data-anchor-id="my-role">My Role</h3>
+<p>I completed this project on a team of six. I spearheaded the data analysis, utilizing advanced statistical models and machine learning techniques to predict NFL draft likelihoods based on college performance, contributing to a deeper understanding of predictive sports analytics.</p>
+</section>
+<section id="technologies-used" class="level3">
+<h3 class="anchored" data-anchor-id="technologies-used">Technologies Used</h3>
+<ul>
+<li><strong>Python</strong> for data processing and modeling.</li>
+<li><strong>Scikit-learn</strong> for machine learning algorithms.</li>
+<li><strong>SHAP (Shapley Additive Explanations)</strong> for interpreting model outputs.</li>
+</ul>
+</section>
+<section id="results" class="level3">
+<h3 class="anchored" data-anchor-id="results">Results</h3>
+<ul>
+<li>Achieved a nuanced understanding of how various quarterback statistics influence NFL draft outcomes.</li>
+<li>Developed models with up to 90% recall in predicting whether quarterbacks would be drafted, using undersampling methods to improve model performance.</li>
+</ul>
+</section>
+<section id="files" class="level3">
+<h3 class="anchored" data-anchor-id="files">Files</h3>
+<ul>
+<li><a href=".\annotated-Stats_140XP_Final_Poster.pdf">Annotated Statistics 140XP Final Poster</a></li>
+</ul>
+<hr>
+</section>
+<section id="project-insights" class="level3">
+<h3 class="anchored" data-anchor-id="project-insights">Project Insights</h3>
+<p>This project provides valuable insights into the predictive power of college football quarterback statistics on NFL draft outcomes. It offers practical applications for NFL scouting teams and aspiring quarterbacks, highlighting the importance of specific skills and achievements in increasing draftability.</p>
+<hr>
+</section>
+</section>
+<section id="project-2-unsupervised-bias-detection-in-college-student-newspapers" class="level2">
+<h2 class="anchored" data-anchor-id="project-2-unsupervised-bias-detection-in-college-student-newspapers">Project 2: Unsupervised Bias Detection in College Student Newspapers</h2>
+<section id="summary-1" class="level3">
+<h3 class="anchored" data-anchor-id="summary-1">Summary</h3>
+<p>This project introduces an innovative, largely automated pipeline for unsupervised sentiment analysis to detect media bias in college newspaper archives. The system is designed to streamline the extraction and analysis of data, enabling precise interpretations of media bias with minimal human intervention. This approach significantly advances the field by providing a method to objectively understand biases within student newspaper sources.</p>
+</section>
+<section id="description-1" class="level3">
+<h3 class="anchored" data-anchor-id="description-1">Description</h3>
+<p>The project centered on developing a sophisticated data collection and sentiment analysis pipeline. Key responsibilities and achievements include:</p>
+<ul>
+<li><p><strong>Advanced Data Collection</strong>: Implemented extensive research and data collection across various media outlets using advanced scraping techniques. This included optimizing the process for multistage content retrieval, which allowed for the extraction of data from complex archive sites that automated tools typically fail to navigate.</p></li>
+<li><p><strong>Automated Sentiment Analysis Pipeline</strong>: Played a pivotal role in creating a predominantly automated pipeline for unsupervised sentiment analysis. This system facilitated the streamlined extraction and analysis of text data, significantly enhancing the efficiency and accuracy of media bias detection.</p></li>
+<li><p><strong>Bias Detection and Analysis</strong>: Leveraged computational social science expertise to assist in the creation of an analytical tool that generates bias scores. This tool serves as a guide toward more balanced and nuanced consumption of news, employing sophisticated machine learning models to classify and analyze the sentiment of texts.</p></li>
+<li><p><strong>Research Impact</strong>: The complete method facilitates the extraction of nuanced insights with minimal assumptions, paving the way for a more objective understanding of bias within student newspaper sources.</p></li>
+</ul>
+</section>
+<section id="my-role-1" class="level3">
+<h3 class="anchored" data-anchor-id="my-role-1">My Role</h3>
+<p>A total of eight interns on the Olami Data Team contributed to this project, with four primary contributors. As co-first author, I designed and implemented our web scraping pipeline for data collection. I then mentored two new team members who continuted collecting data using our pipeline and played a key role in creating an automated sentiment analysis pipeline to streamline bias detection in college media.</p>
+</section>
+<section id="technologies-used-1" class="level3">
+<h3 class="anchored" data-anchor-id="technologies-used-1">Technologies Used</h3>
+<ul>
+<li><strong>Python</strong> for data processing and machine learning.</li>
+<li><strong>NLTK and BART (HuggingFace)</strong> for natural language processing and sentiment analysis.</li>
+</ul>
+</section>
+<section id="technologies-used-2" class="level3">
+<h3 class="anchored" data-anchor-id="technologies-used-2">Technologies Used</h3>
+<ul>
+<li><strong>Python</strong> for data processing and machine learning.</li>
+<li><strong>NLTK and BART (HuggingFace)</strong> for natural language processing and sentiment analysis.</li>
+<li><strong>Scikit-learn</strong> for implementing unsupervised learning models.</li>
+</ul>
+</section>
+<section id="results-1" class="level3">
+<h3 class="anchored" data-anchor-id="results-1">Results</h3>
+<ul>
+<li>Developed a robust model that can effectively differentiate between biased and unbiased content.</li>
+<li>Created a visualization dashboard to represent the outcomes of the bias detection and sentiment analysis.</li>
+</ul>
+</section>
+<section id="files-1" class="level3">
+<h3 class="anchored" data-anchor-id="files-1">Files</h3>
+<ul>
+<li><a href=".\UnsupervisedBias.pdf">Unsupervised Bias Detection - Full Report</a></li>
+<li><a href=".\complete_workflow.pdf">Complete Workflow Documentation</a></li>
+</ul>
+<hr>
+</section>
+<section id="project-insights-1" class="level3">
+<h3 class="anchored" data-anchor-id="project-insights-1">Project Insights</h3>
+<p>This project not only provided insights into the prevalence of bias in media but also showcased the potential of machine learning in automating the detection of such biases. It serves as a foundation for further research into automated media monitoring tools that can assist in creating a balanced informational environment.</p>
+<hr>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

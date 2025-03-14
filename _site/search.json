@@ -2,28 +2,28 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "William McComrack",
+    "title": "William McCormack",
     "section": "",
-    "text": "William McCormack is a third-year Statistics & Data Science student at UCLA. When not innovating at hackathons, William enjoys skiing and playing classical chess. Download my resume"
+    "text": "William McCormack is a third-year Statistics & Data Science student at UCLA. When not innovating at hackathons, William enjoys skiing and playing classical chess."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About William McCormack",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "William McCormack is a driven data science professional and third-year student at UCLA, where he is achieving a blend of academic excellence and real-world application in Statistics and Data Science. With a keen analytical mind, William leverages his skills in R, Python, and other technical tools to drive insightful data projects and develop solutions that impact both community-oriented and global issues.\nHis journey in data science is underscored by a passion for understanding complex datasets and extracting actionable insights. William’s enthusiasm for data analysis is matched by his commitment to applying these skills in practical settings, particularly in his roles where he has innovated in the areas of sentiment analysis and bias detection."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "William McComrack",
+    "title": "William McCormack",
     "section": "Education",
     "text": "Education\nUniversity of California, Los Angeles | Los Angeles, CA\nDegree: B.S in Statistics & Data Science\nMinor: Data Science Engineering\nDates: Sept 2022 - June 2026 (Anticipated)"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
-    "title": "William McComrack",
+    "title": "William McCormack",
     "section": "Experience",
     "text": "Experience\nCompany: Hacker Fund\nPosition: Data Research Intern\nDates: August 2024 - December 2024\nCompany: Olami\nPosition: Data Science Intern\nDates: January 2023 - December 2023"
   },
@@ -33,5 +33,54 @@
     "title": "Projects",
     "section": "Project 2",
     "text": "Project 2"
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This project investigates the feasibility of using common college football quarterback statistics to predict NFL draft outcomes. It focuses on determining whether these statistics can accurately predict whether a quarterback will be drafted and identifying the most significant features influencing draft decisions.\n\n\n\nThe project addresses two main research questions: whether common quarterback statistics can predict NFL draft outcomes, and if so, what features most significantly influence these outcomes. Key elements of the project include:\n\nData Sourcing and Transformation: Data was sourced from college football sports reference pages and normalized within players’ conferences to account for variances in competition levels. A focus was maintained on players who played significant minutes and had a substantial amount of pass attempts.\nModel Development and Evaluation: Different statistical models, including Random Forest and Boosting models, were developed to predict the drafted status of quarterbacks. Techniques like weighting and undersampling were used to handle class imbalances in the data.\nFeature Importance and SHAP Values: After model training, feature importances were analyzed using built-in tree model methods and SHAP values. These analyses helped identify which statistics are most predictive of a quarterback being drafted.\nDraftability Index: Developed a “Draftability Index” which uses SHAP values to weight quarterback statistics, providing a simplified and powerful tool to assess a quarterback’s likelihood of being drafted.\n\n\n\n\nI completed this project on a team of six. I spearheaded the data analysis, utilizing advanced statistical models and machine learning techniques to predict NFL draft likelihoods based on college performance, contributing to a deeper understanding of predictive sports analytics.\n\n\n\n\nPython for data processing and modeling.\nScikit-learn for machine learning algorithms.\nSHAP (Shapley Additive Explanations) for interpreting model outputs.\n\n\n\n\n\nAchieved a nuanced understanding of how various quarterback statistics influence NFL draft outcomes.\nDeveloped models with up to 90% recall in predicting whether quarterbacks would be drafted, using undersampling methods to improve model performance.\n\n\n\n\n\nAnnotated Statistics 140XP Final Poster\n\n\n\n\n\nThis project provides valuable insights into the predictive power of college football quarterback statistics on NFL draft outcomes. It offers practical applications for NFL scouting teams and aspiring quarterbacks, highlighting the importance of specific skills and achievements in increasing draftability."
+  },
+  {
+    "objectID": "Projects.html#project-1-unsupervised-bias-detection-in-college-student-newspapers",
+    "href": "Projects.html#project-1-unsupervised-bias-detection-in-college-student-newspapers",
+    "title": "Projects",
+    "section": "",
+    "text": "This project introduces an innovative, largely automated pipeline for unsupervised sentiment analysis to detect media bias in college newspaper archives. The system is designed to streamline the extraction and analysis of data, enabling precise interpretations of media bias with minimal human intervention. This approach significantly advances the field by providing a method to objectively understand biases within student newspaper sources.\n\n\n\nThe project centered on developing a sophisticated data collection and sentiment analysis pipeline. Key responsibilities and achievements include:\n\nAdvanced Data Collection: Implemented extensive research and data collection across various media outlets using advanced scraping techniques. This included optimizing the process for multistage content retrieval, which allowed for the extraction of data from complex archive sites that automated tools typically fail to navigate.\nAutomated Sentiment Analysis Pipeline: Played a pivotal role in creating a predominantly automated pipeline for unsupervised sentiment analysis. This system facilitated the streamlined extraction and analysis of text data, significantly enhancing the efficiency and accuracy of media bias detection.\nBias Detection and Analysis: Leveraged computational social science expertise to assist in the creation of an analytical tool that generates bias scores. This tool serves as a guide toward more balanced and nuanced consumption of news, employing sophisticated machine learning models to classify and analyze the sentiment of texts.\nResearch Impact: The complete method facilitates the extraction of nuanced insights with minimal assumptions, paving the way for a more objective understanding of bias within student newspaper sources.\n\n\n\n\n\nPython for data processing and machine learning.\nNLTK and BART (HuggingFace) for natural language processing and sentiment analysis.\nScikit-learn for implementing unsupervised learning models.\n\n\n\n\n\nDeveloped a robust model that can effectively differentiate between biased and unbiased content.\nCreated a visualization dashboard to represent the outcomes of the bias detection and sentiment analysis.\n\n\n\n\n\nUnsupervised Bias Detection - Full Report\nComplete Workflow Documentation\n\n\n\n\n\nThis project not only provided insights into the prevalence of bias in media but also showcased the potential of machine learning in automating the detection of such biases. It serves as a foundation for further research into automated media monitoring tools that can assist in creating a balanced informational environment."
+  },
+  {
+    "objectID": "Projects.html#project-1-the-role-of-sports-statistics-in-evaluating-college-quarterbacks",
+    "href": "Projects.html#project-1-the-role-of-sports-statistics-in-evaluating-college-quarterbacks",
+    "title": "Projects",
+    "section": "",
+    "text": "This project investigates the feasibility of using common college football quarterback statistics to predict NFL draft outcomes. It focuses on determining whether these statistics can accurately predict whether a quarterback will be drafted and identifying the most significant features influencing draft decisions.\n\n\n\nThe project addresses two main research questions: whether common quarterback statistics can predict NFL draft outcomes, and if so, what features most significantly influence these outcomes. Key elements of the project include:\n\nData Sourcing and Transformation: Data was sourced from college football sports reference pages and normalized within players’ conferences to account for variances in competition levels. A focus was maintained on players who played significant minutes and had a substantial amount of pass attempts.\nModel Development and Evaluation: Different statistical models, including Random Forest and Boosting models, were developed to predict the drafted status of quarterbacks. Techniques like weighting and undersampling were used to handle class imbalances in the data.\nFeature Importance and SHAP Values: After model training, feature importances were analyzed using built-in tree model methods and SHAP values. These analyses helped identify which statistics are most predictive of a quarterback being drafted.\nDraftability Index: Developed a “Draftability Index” which uses SHAP values to weight quarterback statistics, providing a simplified and powerful tool to assess a quarterback’s likelihood of being drafted.\n\n\n\n\nI completed this project on a team of six. I spearheaded the data analysis, utilizing advanced statistical models and machine learning techniques to predict NFL draft likelihoods based on college performance, contributing to a deeper understanding of predictive sports analytics.\n\n\n\n\nPython for data processing and modeling.\nScikit-learn for machine learning algorithms.\nSHAP (Shapley Additive Explanations) for interpreting model outputs.\n\n\n\n\n\nAchieved a nuanced understanding of how various quarterback statistics influence NFL draft outcomes.\nDeveloped models with up to 90% recall in predicting whether quarterbacks would be drafted, using undersampling methods to improve model performance.\n\n\n\n\n\nAnnotated Statistics 140XP Final Poster\n\n\n\n\n\nThis project provides valuable insights into the predictive power of college football quarterback statistics on NFL draft outcomes. It offers practical applications for NFL scouting teams and aspiring quarterbacks, highlighting the importance of specific skills and achievements in increasing draftability."
+  },
+  {
+    "objectID": "Projects.html#project-2-unsupervised-bias-detection-in-college-student-newspapers",
+    "href": "Projects.html#project-2-unsupervised-bias-detection-in-college-student-newspapers",
+    "title": "Projects",
+    "section": "Project 2: Unsupervised Bias Detection in College Student Newspapers",
+    "text": "Project 2: Unsupervised Bias Detection in College Student Newspapers\n\nSummary\nThis project introduces an innovative, largely automated pipeline for unsupervised sentiment analysis to detect media bias in college newspaper archives. The system is designed to streamline the extraction and analysis of data, enabling precise interpretations of media bias with minimal human intervention. This approach significantly advances the field by providing a method to objectively understand biases within student newspaper sources.\n\n\nDescription\nThe project centered on developing a sophisticated data collection and sentiment analysis pipeline. Key responsibilities and achievements include:\n\nAdvanced Data Collection: Implemented extensive research and data collection across various media outlets using advanced scraping techniques. This included optimizing the process for multistage content retrieval, which allowed for the extraction of data from complex archive sites that automated tools typically fail to navigate.\nAutomated Sentiment Analysis Pipeline: Played a pivotal role in creating a predominantly automated pipeline for unsupervised sentiment analysis. This system facilitated the streamlined extraction and analysis of text data, significantly enhancing the efficiency and accuracy of media bias detection.\nBias Detection and Analysis: Leveraged computational social science expertise to assist in the creation of an analytical tool that generates bias scores. This tool serves as a guide toward more balanced and nuanced consumption of news, employing sophisticated machine learning models to classify and analyze the sentiment of texts.\nResearch Impact: The complete method facilitates the extraction of nuanced insights with minimal assumptions, paving the way for a more objective understanding of bias within student newspaper sources.\n\n\n\nMy Role\nA total of eight interns on the Olami Data Team contributed to this project, with four primary contributors. As co-first author, I designed and implemented our web scraping pipeline for data collection. I then mentored two new team members who continuted collecting data using our pipeline and played a key role in creating an automated sentiment analysis pipeline to streamline bias detection in college media.\n\n\nTechnologies Used\n\nPython for data processing and machine learning.\nNLTK and BART (HuggingFace) for natural language processing and sentiment analysis.\n\n\n\nTechnologies Used\n\nPython for data processing and machine learning.\nNLTK and BART (HuggingFace) for natural language processing and sentiment analysis.\nScikit-learn for implementing unsupervised learning models.\n\n\n\nResults\n\nDeveloped a robust model that can effectively differentiate between biased and unbiased content.\nCreated a visualization dashboard to represent the outcomes of the bias detection and sentiment analysis.\n\n\n\nFiles\n\nUnsupervised Bias Detection - Full Report\nComplete Workflow Documentation\n\n\n\n\nProject Insights\nThis project not only provided insights into the prevalence of bias in media but also showcased the potential of machine learning in automating the detection of such biases. It serves as a foundation for further research into automated media monitoring tools that can assist in creating a balanced informational environment."
+  },
+  {
+    "objectID": "about.html#biography",
+    "href": "about.html#biography",
+    "title": "About William McCormack",
+    "section": "",
+    "text": "William McCormack is a driven data science professional and third-year student at UCLA, where he is achieving a blend of academic excellence and real-world application in Statistics and Data Science. With a keen analytical mind, William leverages his skills in R, Python, and other technical tools to drive insightful data projects and develop solutions that impact both community-oriented and global issues.\nHis journey in data science is underscored by a passion for understanding complex datasets and extracting actionable insights. William’s enthusiasm for data analysis is matched by his commitment to applying these skills in practical settings, particularly in his roles where he has innovated in the areas of sentiment analysis and bias detection."
+  },
+  {
+    "objectID": "about.html#core-values-and-interests",
+    "href": "about.html#core-values-and-interests",
+    "title": "About William McCormack",
+    "section": "Core Values and Interests",
+    "text": "Core Values and Interests\nWilliam believes strongly in the power of data to inform better decision-making and foster a more informed society. His work, especially in areas like grant writing and research for nonprofit funding, reflects his dedication to social impact, striving to secure resources that enable charitable programs to thrive and expand.\nOutside the professional sphere, William is deeply involved in his university community. He plays a significant role in organizing major collegiate events like LA Hacks, where he coordinates efforts to bring together bright minds to solve pressing challenges. His leadership in the Zeta Beta Tau fraternity also highlights his commitment to building strong, supportive networks among his peers."
+  },
+  {
+    "objectID": "about.html#collegiate-engagement",
+    "href": "about.html#collegiate-engagement",
+    "title": "About William McCormack",
+    "section": "Collegiate Engagement",
+    "text": "Collegiate Engagement\n\nLA Hacks Organizer Club: As a key organizer, William has been instrumental in securing significant funding, ensuring the success and expansion of one of SoCal’s largest hackathons.\nZeta Beta Tau Fraternity: As Vice President, William actively contributes to fraternity governance, emphasizing community service, and academic excellence among its members.\n\nWilliam’s approach to data science is deeply intertwined with his belief in ethical responsibility and community service. Whether it’s through analyzing data to uncover trends or leading teams to achieve their fundraising goals, he demonstrates a profound ability to lead with integrity and vision."
   }
 ]

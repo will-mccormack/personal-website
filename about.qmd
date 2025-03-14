@@ -1,9 +1,24 @@
 ---
-title: "About"
+title: "About William McCormack"
+format: html
 ---
 
-About this site
 
-```{r}
-1 + 1
-```
+## Biography
+
+William McCormack is a driven data science professional and third-year student at UCLA, where he is achieving a blend of academic excellence and real-world application in Statistics and Data Science. With a keen analytical mind, William leverages his skills in R, Python, and other technical tools to drive insightful data projects and develop solutions that impact both community-oriented and global issues.
+
+His journey in data science is underscored by a passion for understanding complex datasets and extracting actionable insights. William's enthusiasm for data analysis is matched by his commitment to applying these skills in practical settings, particularly in his roles where he has innovated in the areas of sentiment analysis and bias detection.
+
+## Core Values and Interests
+
+William believes strongly in the power of data to inform better decision-making and foster a more informed society. His work, especially in areas like grant writing and research for nonprofit funding, reflects his dedication to social impact, striving to secure resources that enable charitable programs to thrive and expand.
+
+Outside the professional sphere, William is deeply involved in his university community. He plays a significant role in organizing major collegiate events like LA Hacks, where he coordinates efforts to bring together bright minds to solve pressing challenges. His leadership in the Zeta Beta Tau fraternity also highlights his commitment to building strong, supportive networks among his peers.
+
+## Collegiate Engagement
+
+- **LA Hacks Organizer Club**: As a key organizer, William has been instrumental in securing significant funding, ensuring the success and expansion of one of SoCal’s largest hackathons.
+- **Zeta Beta Tau Fraternity**: As Vice President, William actively contributes to fraternity governance, emphasizing community service, and academic excellence among its members.
+
+William's approach to data science is deeply intertwined with his belief in ethical responsibility and community service. Whether it's through analyzing data to uncover trends or leading teams to achieve their fundraising goals, he demonstrates a profound ability to lead with integrity and vision.

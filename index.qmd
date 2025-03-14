@@ -10,26 +10,29 @@ about:
     - icon: github
       text: Github
       href: https://github.com/will-mccormack
-    - text: Email
+    - icon: mail
+      text: Email
       url: "mailto:willmccormack@g.ucla.edu"
+    - icon: file-pdf-o
+      text: Resume
+      url: "/William_McCormack.pdf"
 ---
 
-William McCormack is a third-year Statistics & Data Science student at UCLA. When not innovating at hackathons, William enjoys skiing and playing classical chess. Download [my resume](/William_McCormack.pdf)
+William McCormack is a third-year Statistics & Data Science student at UCLA. When not innovating at hackathons, William enjoys skiing and playing classical chess.
 
 ## Education
 
-**University of California, Los Angeles** | Los Angeles, CA  
-**Degree:** B.S in Statistics & Data Science  
-**Minor:** Data Science Engineering  
+**University of California, Los Angeles** \| Los Angeles, CA\
+**Degree:** B.S in Statistics & Data Science\
+**Minor:** Data Science Engineering\
 **Dates:** Sept 2022 - June 2026 (Anticipated)
-
 
 ## Experience
 
-**Company:** Hacker Fund  
-**Position:** Data Research Intern  
-**Dates:** August 2024 - December 2024  
+**Company:** Hacker Fund\
+**Position:** Data Research Intern\
+**Dates:** August 2024 - December 2024
 
-**Company:** Olami  
-**Position:** Data Science Intern  
-**Dates:** January 2023 - December 2023  
+**Company:** Olami\
+**Position:** Data Science Intern\
+**Dates:** January 2023 - December 2023
